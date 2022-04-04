@@ -22,19 +22,19 @@ The list contains the dictionary of the full-resolution image URL string and tit
 
 ## Deliverable 2
 
-The scraping.py file contains code that retrieves the full-resolution image URL and title for each hemisphere image (10 pt)
+"Scraping.py" file contains code that retrieves the full-resolution image URL and title for each hemisphere image.
 
 ![21](Images/21.png)
 
-The Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image (10 pt)
+The Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image.
 
 ![22](Images/22.png)
 
-The index.html file contains code that will display the full-resolution image URL and title for each hemisphere image (10 pt)
+The index.html file contains code that will display the full-resolution image URL and title for each hemisphere image.
 
 ![23](Images/23.png)
 
-After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images (10 pt)
+After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images.
 
 ![24](Images/24.png)
 

@@ -48,23 +48,18 @@
           </div>
         </div>
       </div>
-
       <!-- Section for all 4 images -->
-      <div class="row" id="mars-images">
-        <style>.column {flex: 50%;} </style>
-          <div class="col-md-6">
-            <h2>Mars Hemispheres</h2>
-              {% for hemisphere in mars.urls_list %}:
-                <img  
-                src="{{ hemisphere.img_url }}"
-                class="img-responsive"
-                alt="Responsive image"
-                />
-                <h4 class="title">{{ hemisphere['title'] }}</h4>
-              {% endfor %}
-          </div>
-        
-      </div> 
+      {% for hemisphere in mars.urls_list %}:
+        <div class="col-md-5">
+          <h2>Mars Hemispheres</h2>    
+            <img
+            src="{{ hemisphere.img_url }}"
+            class="img-responsive"
+            alt="Responsive image"
+            />
+            <h4 class="title">{{ hemisphere['title'] }}</h4>
+        </div>
+      {% endfor %}
     </div>
   </body>
 </html>
